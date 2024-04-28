@@ -1,17 +1,16 @@
-a = int(input())
-ozenki = input()
-ozenki = ozenki.split()
-if len(ozenki) < 8:
-    print(ozenki.count('5'))
-else:
-    results = []
-    i = 0
-    while i <= a - 7:
-        week = ozenki[i:i+7]
-        if week.count('2') == 0 and week.count('3') == 0:
-            results.append(week.count('5'))
-        i += 1
-    if len(results) == 0:
-        print(-1)
-    else: print(max(results))
+# This is a sample Python script.
 
+# Press Shift+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+
+
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('PyCharm')
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/

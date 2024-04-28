@@ -1,0 +1,68 @@
+body {
+	background: linear-gradient(rgba(0,0,0,.1),rgba(255, 255, 255, 0.9)), url(../Images/signin_background.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: sans-serif;
+}
+
+.form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: rgba(0, 0, 0, 0.75);
+    border-radius: 30px;
+}
+
+.form h1 {
+	margin: 15px 100px;
+	padding: 0;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.input-form {
+	margin: 10px 40px;
+	text-align: center;
+    
+}
+
+.input-form input {
+	padding: 10px;
+	width: 100%;
+	color: #fff;
+	font-size: 15px;
+	background: none;
+	outline: none;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.input-form input[type="submit"] {	 	
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: none;
+	background: #cc2067;	
+	border: 2px solid #a71652;
+	height: 50px;
+	transition: .3s;
+}
+
+.input-form input[type="submit"]:hover {
+	background: rgb(46, 147, 197);
+	border: 2px solid rgb(34, 113, 153);
+}
+
+select {
+	margin: 10px 40px;
+	margin-right: 40px;
+	text-align: center;
+	width: 78%;
+	height: 30px;
+	border-radius: 10px;
+}
